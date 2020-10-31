@@ -16,4 +16,13 @@ def invert(lst):
     for num in lst:
         num = num * -1
         empty.append(num)
+
     return empty
+
+# 7kyu
+# Say Me Please Operations
+# https://www.codewars.com/kata/5b5e0c0d83d64866bc00001d/train/python
+# 
+
+def say_me_operations(string_numbers):
+    pass
