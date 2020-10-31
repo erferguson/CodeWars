@@ -36,3 +36,41 @@ function makePair(num1, num2) {
 function frames(minutes, fps) {
 	return minutes * (fps * 60)
 }
+
+// Given two integers, a and b, return true if a 
+// can be divided evenly by b. Return false otherwise.
+
+function dividesEvenly(a, b) {
+	if (a % b === 0){
+        return true
+    }
+    else return false
+}
+
+// Create a function that takes the age and return the age in days.
+
+function calcAge(age) {
+	return age * 365
+}
+
+// Create a function that takes a string and 
+// returns it as an integer.
+
+function stringInt(str) {
+	return parseInt(str)
+}
+
+// A bartender is writing a simple program to determine whether
+// he should serve drinks to someone. He only serves drinks to 
+// people 18 and older and when he's not on break.
+
+// Given the person's age, and whether break time is in 
+// session, create a function which returns whether he 
+// should serve drinks.
+
+function shouldServeDrinks(age, onBreak) {
+    if (age >= 18 && onBreak === false){
+        return true
+    }
+    else return false
+}
