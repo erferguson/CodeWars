@@ -6,8 +6,9 @@ function even_or_odd(number) {
     if (number % 2 === 0){
       return 'Even'
     } 
-    else return 'Odd'
+    else {return 'Odd'}
   }
+
 
 // Very simple, given a number, find its opposite.
   function opposite(number) {
@@ -21,3 +22,5 @@ function even_or_odd(number) {
 // determine if number is + or -
 // multiple by -1 to get negative
 // find absolute value , Math.abs()
+// The Math.abs() function returns the 
+//      absolute value of a number
