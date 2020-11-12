@@ -25,16 +25,21 @@ function frameGenerator(n) {
     for (let i = 0; i < n; i++) {
       newArray.push(star);
     }
+
     for (let i = 1; i < n-1; i++) {
       // hit middle sections of the String in the newArray
-      // update them to ' '
-      const newString = newArray[i].replace(star, space); // <<<<<<<< STUCK HERE
-      newArray[i] = newString;
+      // update them to ''
+      if(i !== Math.floor(n / 2)){
+        const newString = newArray[i].replace(star, space); // <<<<<<<< STUCK HERE
+        newArray[i] = newString;
+      }
+      
+      console.log(">>>",newArray[i], i, n)
     }
-    console.log('*',space, '*')
+    // console.log('*',space, '*')
 
   return newArray;
 }
 
-console.log(frameGenerator(12));
+console.log(frameGenerator(7));
 
