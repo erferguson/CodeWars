@@ -17,6 +17,8 @@
 
 // P. S. You can use \n in string to jump to the next line.
 ////////
+
+/// #1 
 function multiTable(number) {
     let table = []
     
@@ -26,9 +28,14 @@ function multiTable(number) {
     }
     return table.join('\n')
   }
-  
-  
-  // taking in > integer
-  // returning >> integer
-  
-  // number * 1
+ 
+
+/// #2
+// You will be given an array a and a value x. 
+// All you need to do is check whether the provided 
+// array contains the value.
+
+// Array can contain numbers or strings. X can be either.
+
+// Return true if the array contains the value, 
+// false if not.
