@@ -1,3 +1,4 @@
+/// #1 
 // Your goal is to return multiplication table for number
 // that is always an integer from 1 to 10.
 
@@ -18,7 +19,6 @@
 // P. S. You can use \n in string to jump to the next line.
 ////////
 
-/// #1 
 function multiTable(number) {
     let table = []
     
@@ -39,3 +39,20 @@ function multiTable(number) {
 
 // Return true if the array contains the value, 
 // false if not.
+
+function check(a, x) {
+  
+    for(let i = 0; i < a.length; i++){
+        if( x === a[i] ){
+            return true
+        } 
+    }
+    return false
+  }
+// what given > array with either integers or strings
+// returns > array with either integers or strings
+
+// a = array w/ integers or strings
+// x = a single value, integer or string
+
+// does a contain x?
