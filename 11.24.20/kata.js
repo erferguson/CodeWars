@@ -49,6 +49,12 @@ function check(a, x) {
     }
     return false
   }
+
+// OR >> using .includes()
+
+  function check(a,x){
+    return a.includes(x);
+  };
 // what given > array with either integers or strings
 // returns > array with either integers or strings
 
