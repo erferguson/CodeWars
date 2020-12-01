@@ -6,5 +6,17 @@
 // the third is the step. (min < max)
 
 function generateRange(min, max, step){
+    let numRange = []
 
+    for (let i = min; i <= max; i += step){ // i += step? wth is going on there?
+        numRange.push(i)
+      }
+  return numRange
 }
+
+// given > integers
+// returned > array of integers
+
+// for loop?
+// empty Array to store looped integers
+
