@@ -8,7 +8,16 @@
 // None of the arrays will be empty
 
 function removeEveryOther(arr){
-    //your code here
+    let updated = []
+
+    for (let i = 0; i < arr.length; i = i+2 ){
+        updated.push(arr[i])
+    }
   }
 
-  
+  // given > array
+  // return > array
+
+  // blank array to hold old array keepers, let updated = []
+  // for loop to loop over
+  // i = i + 2 for remove second element?
