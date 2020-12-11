@@ -13,7 +13,7 @@
 
 // puts find_hobbyists(hobbies, 'Yoga')
 
-let hobbies = {
+ let hobbies = {
     John: ['Piano', 'Puzzles', 'Yoga'],
     Adam: ['Drama', 'Fashion', 'Pets'],
     Mary: ['Magic', 'Pets', 'Reading']
@@ -43,7 +43,7 @@ let hobbies = {
     })
     return hobbyists
   }
-  
+
   find_hobbyists(hobbies, 'Hiking')
   console.log(find_hobbyists(hobbies, "Hiking"))
   // find_hobbyists(hobbies, 'Hiking') should yield []
